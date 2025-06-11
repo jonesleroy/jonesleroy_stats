@@ -23,7 +23,7 @@ function getSum(numbers) {
  * @returns {number} the mean of the numbers
  */
 function getMean(numbers) {
-  const mean = getSum(numbers) / numbers.length;
+  const mean = getSum(numbers) / getLength(numbers);
   return mean;
 }
 
